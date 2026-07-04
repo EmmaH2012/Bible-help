@@ -1,2 +1,4 @@
 # Bible-help
-Select problem and some biblical soultions come to you
+Enter problem and some biblical help willl help you
+Problem = input('please enter problem')
+ 
