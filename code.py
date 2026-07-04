@@ -12,7 +12,7 @@ if problem == "anxiety":
         "- Philippians 4:6"
     )
 else:
-    print("Sorry, I don't have a verse for that topic yet.")
+    print("Sorry, I don't have a verse for that topic yet! Please try again later or check spelling.")
 
 
 
