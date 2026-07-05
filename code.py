@@ -33,11 +33,13 @@ else:
             "- James 1:6"
 
         )
-        
-
-
-
-
+        choice = input("Would you like a Bible study about doubt? (please type Y or N)").strip().lower()
+        if choice == "Y":
+            print("Sorry, this feature isn't available yet. Please try agian later!" )
+        elif choice == "n":
+            print('Ok! I hop this helped!')
+        else:
+            print("I didn't understand for answer. Please type Y or N.")
 
 
 
