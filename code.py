@@ -24,6 +24,23 @@ if problem == "anxiety":
 
 else:
     print("Sorry, I don't have a verse for that topic yet! Please try again later or check spelling.")
+    if problem == "doubt":
+        print(
+            "In the Bible it says: "
+            "'But when you ask, you must believe and not doubt,"
+            "because the one who doubts is like a wave of the sea,"
+            "blown and tossed by the wind.'"
+            "- James 1:6"
+
+        )
+        if choice == "y":
+        print("Sorry, this feature isn't available yet. Please try again later!")
+    elif choice == "n":
+        print("Ok! I hope this helped!")
+    else:
+        print("I didn't understand your answer. Please type Y or N.")
+
+
 
 
 
