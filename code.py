@@ -33,12 +33,7 @@ else:
             "- James 1:6"
 
         )
-        if choice == "Y":
-        print("Sorry, this feature isn't available yet. Please try again later!")
-    elif choice == "n":
-        print("Ok! I hope this helped!")
-    else:
-        print("I didn't understand your answer. Please type Y or N.")
+        
 
 
 
