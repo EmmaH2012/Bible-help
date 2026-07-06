@@ -24,7 +24,8 @@ if problem == "anxiety":
 
 else:
     print("Sorry, I don't have a verse for that topic yet! Please try again later or check spelling.")
-    if problem == "doubt":
+    
+if problem == "doubt":
         print(
             "In the Bible it says: "
             "'But when you ask, you must believe and not doubt,"
