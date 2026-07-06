@@ -37,7 +37,7 @@ else:
         if choice == "Y":
             print("Sorry, this feature isn't available yet. Please try agian later!" )
         elif choice == "n":
-            print('Ok! I hop this helped!')
+            print('Ok! I hope this helped!')
         else:
             print("I didn't understand for answer. Please type Y or N.")
 
