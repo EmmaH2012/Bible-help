@@ -21,10 +21,7 @@ if problem == "anxiety":
         print("Ok! I hope this helped!")
     else:
         print("I didn't understand your answer. Please type Y or N.")
-
-else:
-    print("Sorry, I don't have a verse for that topic yet! Please try again later or check spelling.")
-    
+        
 if problem == "doubt":
         print(
             "In the Bible it says: "
@@ -41,6 +38,10 @@ if problem == "doubt":
             print('Ok! I hope this helped!')
         else:
             print("I didn't understand for answer. Please type Y or N.")
+
+else:
+    print("Sorry, I don't have a verse for that topic yet! Please try again later or check spelling.")
+    
 
 
 
