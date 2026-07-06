@@ -32,7 +32,7 @@ if problem == "doubt":
 
         )
         choice = input("Would you like a Bible study about doubt? (please type Y or N)").strip().lower()
-        if choice == "Y":
+        if choice == "y":
             print("Sorry, this feature isn't available yet. Please try agian later!" )
         elif choice == "n":
             print('Ok! I hope this helped!')
