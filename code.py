@@ -38,9 +38,21 @@ if problem == "doubt":
             print('Ok! I hope this helped!')
         else:
             print("I didn't understand for answer. Please type Y or N.")
+if problem == "love":
+    print(
+        "In the buble it says:"
+        "'Love is patient,love is kind. It does not envy,"
+        "it does not boast, it is not proud.'- 1 Corinthians 13:4"
+    )
+    choice = input("Would you like a Bible study about love? (please type Y of N)").strip().lower()
+    if choice == "y":
+        print("Sorry, this feature isnt avalible! Please try agian later.")
+    elif choice == "n":
+        print("Ok! I hope this helped!")
 
 else:
     print("Sorry, I don't have a verse for that topic yet! Please try again later or check spelling.")
+
     
 
 
